@@ -1,5 +1,19 @@
-extends layout
+//- layout.pug
+html  
+    head
+        title This is my first Pug file
+    body
+        header
+            p My soon to be menu
+        section
+            p This is a post about Pug template engine, enjoy it!
+        footer
+            cool footer with lots of copyrights
 
-block content
-  h1= title
-  p Welcome to #{title}
+a.foo_link(href='about.html', target='_blank') About Us
+
+            link(href='/css/styles.css', rel='stylesheet')
+script(type='text/javascript').  
+    var myVar = ‘Hello Var’;
+    console.log(myVar);
+script(src='/javascripts/app.js')
